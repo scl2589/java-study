@@ -10,6 +10,9 @@ public class Student {
     public Student(String name) {
         studentName = name;
         serialNum++;
+        // 매번 증가되는 serialNum이 각 인스턴스의 학번이 된다.
+        studentID = serialNum;
+
     }
 
     public Student(int id, String name) {

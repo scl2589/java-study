@@ -7,6 +7,7 @@ public class StudentIDTest {
 
         Student studentKim = new Student("Kim");
 
+        // 같은 메모리를 바라보고 있다는 것을 알 수 있따.
         System.out.println(studentKim.serialNum); //1002
         System.out.println(studentLee.serialNum); //1002
 
