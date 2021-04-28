@@ -15,10 +15,13 @@ public class Customer {
     }
 
     public Customer(int customerID, String customerName) {
+        customerGrade = "SILVER";
+        bonusRatio = 0.01;
+
         this.customerID = customerID;
         this.customerName = customerName;
 
-        System.out.println("매개변수 있는 Customer() 생성자 호출");
+        System.out.println("Customer(int, String) 생성자 호출");
     }
 
     public int calcPrice(int price) {
