@@ -20,7 +20,7 @@ public class IDFormatTest {
     public static void main(String[] args) {
         IDFormatTest idTest = new IDFormatTest();
 
-        string myId = null; 
+        String myId = null;
 
         try {
             idTest.setUserID(myId);

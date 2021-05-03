@@ -1,8 +1,10 @@
 package Chapter14.stream.inputstream;
 
+import java.io.Console;
+
 public class ConsoleTest {
     public static void main(String[] args) {
-        Console console = System.console(); 
+        Console console = System.console();
 
         System.out.println("이름: ");
         String name = console.readLine(); 
@@ -10,8 +12,8 @@ public class ConsoleTest {
         console.readPassword(); 
         char[] password = console.readPassword(); 
 
-        System.out.rpintln(name); 
-        SYstem.out.println(password); 
+        System.out.println(name);
+        System.out.println(password);
     }
 
 }
