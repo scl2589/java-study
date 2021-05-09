@@ -15,3 +15,4 @@ public class EmployeeTest {
         System.out.println(employeeKim.serialNum);
 
     }
+}
