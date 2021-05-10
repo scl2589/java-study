@@ -9,10 +9,10 @@ public class EmployeeTest {
 
         Employee employeeKim = new Employee();
         employeeKim.setEmployeeName("김유신");
-        employeeKim.serialNum++;
 
-        System.out.println(employeeLee.serialNum);
-        System.out.println(employeeKim.serialNum);
+        System.out.println(employeeLee.getEmployeeName() + "," + employeeLee.getEmployeeId());
+        System.out.println(employeeKim.getEmployeeName() + "," + employeeKim.getEmployeeId());
+
 
     }
 }
